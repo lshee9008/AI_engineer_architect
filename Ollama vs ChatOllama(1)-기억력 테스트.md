@@ -230,7 +230,7 @@ def chat(session_id, message):
         config={"configurable": {"session_id": session_id}}
     ).content
 
-# 🧪 테스트
+# 테스트
 print(chat("user1", "내 이름은 승희야"))
 print(chat("user1", "내 이름 기억해? 기억한다면 내 이름은 뭐야?"))
 
@@ -271,9 +271,9 @@ print(chat("user2", "내 이름 기억해? 기억한다면 내 이름은 뭐야?
 
 | 방식 | 특징 | 상태 |
 | --- | --- | --- |
-| messages 직접 관리 | 수동 | ❌ 비효율 |
-| ConversationBufferMemory | 간편 | ⚠️ 레거시 |
-| RunnableWithMessageHistory | 자동 + 세션 기반 | ✅ 현재 표준 |
+| messages 직접 관리 | 수동 | 비효율 |
+| ConversationBufferMemory | 간편 | 레거시 |
+| RunnableWithMessageHistory | 자동 + 세션 기반 | 현재 표준 |
 
 # 핵심 구조 이해
 
