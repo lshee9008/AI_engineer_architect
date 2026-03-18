@@ -67,7 +67,7 @@ import json
 
 llm = ChatOllama(
     model="gemma3:4b",
-    format="json",   # 🔥 핵심: JSON 형식 강제
+    format="json",   # 핵심: JSON 형식 강제
     temperature=0
 )
 
