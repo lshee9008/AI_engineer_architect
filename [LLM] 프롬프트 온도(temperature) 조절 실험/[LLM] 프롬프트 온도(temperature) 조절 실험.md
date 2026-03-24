@@ -40,7 +40,7 @@ LLM API를 처음 쓸 때 가장 많이 듣는 파라미터가 `temperature`다.
 ### 측정 지표
 
 - **엔트로피 (Entropy):** 출력에 사용된 단어 분포의 Shannon entropy. 높을수록 다양한 단어 사용
-    - Shanon entropy 참고 : https://velog.io/@zlddp723/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84-%EC%9C%84%ED%95%9C-%EA%B8%B0%EC%B4%88%EC%88%98%ED%95%99-%EC%A0%95%EB%B3%B4%EC%99%80-%EC%97%94%ED%8A%B8%EB%A1%9C%ED%94%BC-Shannon-%ED%81%AC%EB%A1%9C%EC%8A%A4-%EC%97%94%ED%8A%B8%EB%A1%9C%ED%94%BC-Cross
+    - Shannon entropy 참고 : https://velog.io/@zlddp723/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84-%EC%9C%84%ED%95%9C-%EA%B8%B0%EC%B4%88%EC%88%98%ED%95%99-%EC%A0%95%EB%B3%B4%EC%99%80-%EC%97%94%ED%8A%B8%EB%A1%9C%ED%94%BC-Shannon-%ED%81%AC%EB%A1%9C%EC%8A%A4-%EC%97%94%ED%8A%B8%EB%A1%9C%ED%94%BC-Cross
 - **Unique Ratio:** n회 중 완전히 다른 응답의 비율 — `1.0` = 전부 다름, `0.0` = 전부 동일
 - **평균 길이:** 응답 글자 수 평균. 온도가 길이에도 영향을 주는지 확인
 
